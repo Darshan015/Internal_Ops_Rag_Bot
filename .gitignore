@@ -1,0 +1,24 @@
+# Virtual environment contents
+Include/
+Lib/
+Scripts/
+share/
+etc/
+pyvenv.cfg
+
+# Local secrets and runtime state
+.env
+.env.*
+!.env.example
+tmp/
+*.sqlite
+*.sqlite3
+
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
